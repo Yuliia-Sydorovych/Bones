@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bones</title>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+	<div class="pirate">	
+
+		<div class="count">
+			<p class="name">Піратка</p>
+			<p id="score">
+				
+			</p>
+		</div>
+
+		<div id="bones1">
+
+			<div class="six">
+				<div class="top_left"></div>
+				<div class="top_right"></div>
+				<div class="top_center_left"></div>
+				<div class="top_center_right"></div>
+				<div class="bottom_left"></div>
+				<div class="bottom_right"></div>
+			</div>
+
+			<div class="five">
+				<div class="top_left"></div>
+				<div class="top_right"></div>
+				<div class="center"></div>
+				<div class="bottom_left"></div>
+				<div class="bottom_right"></div>
+			</div>
+			
+			<div class="four">
+				<div class="top_left"></div>
+				<div class="top_right"></div>
+				<div class="bottom_left"></div>
+				<div class="bottom_right"></div>
+			</div>
+
+			<div class="three">
+				<div class="top"></div>
+				<div class="center"></div>
+				<div class="bottom"></div>
+			</div>
+
+			<div class="two">
+				<div class="top"></div>
+				<div class="bottom"></div>
+			</div>
+
+			<div class="one">
+				<div class="center"></div>
+			</div>
+
+		</div>
+		<div id="bones2">
+			<div class="six">
+				<div class="top_left"></div>
+				<div class="top_right"></div>
+				<div class="top_center_left"></div>
+				<div class="top_center_right"></div>
+				<div class="bottom_left"></div>
+				<div class="bottom_right"></div>
+			</div>
+
+			<div class="five">
+				<div class="top_left"></div>
+				<div class="top_right"></div>
+				<div class="center"></div>
+				<div class="bottom_left"></div>
+				<div class="bottom_right"></div>
+			</div>
+			
+			<div class="four">
+				<div class="top_left"></div>
+				<div class="top_right"></div>
+				<div class="bottom_left"></div>
+				<div class="bottom_right"></div>
+			</div>
+
+			<div class="three">
+				<div class="top"></div>
+				<div class="center"></div>
+				<div class="bottom"></div>
+			</div>
+
+			<div class="two">
+				<div class="top"></div>
+				<div class="bottom"></div>
+			</div>
+
+			<div class="one">
+				<div class="center"></div>
+			</div>
+		</div>
+
+		<img src="img/pirate1.png" width = "450" height="550" class="pirate1 animate__animated animate__fadeInLeft" onMouseOver="more(this)" onMouseOut="less(this)" onclick="click_girl(); click_girl2(); count_winner();">
+	</div>
+	<div class="treasure">
+		<p class="description">
+			Щоб кинути кості -
+			<br>
+			натисніть на пірата
+			<br><br>
+			Кожен має по 3 кидки
+			<br><br>
+			Золото дістанеться тому,
+			<br>
+			хто набере найбільшу
+			<br>
+			кількість балів
+			<br><br>
+			Першою кидає леді
+			<br>
+		</p>
+		<img src="img/paper.png" class="paper_img">
+		<img src="img/treasure.png" id="treasure_img" class="animate__animated animate__zoomIn">
+
+	</div>
+	<div class="pirate">
+
+		<div class="count2">
+			<p class="name">Пірат</p>
+			<p id="score2">
+				
+			</p>
+		</div>
+
+		<div id="bones3">
+
+			<div class="six">
+				<div class="top_left"></div>
+				<div class="top_right"></div>
+				<div class="top_center_left"></div>
+				<div class="top_center_right"></div>
+				<div class="bottom_left"></div>
+				<div class="bottom_right"></div>
+			</div>
+
+			<div class="five">
+				<div class="top_left"></div>
+				<div class="top_right"></div>
+				<div class="center"></div>
+				<div class="bottom_left"></div>
+				<div class="bottom_right"></div>
+			</div>
+			
+			<div class="four">
+				<div class="top_left"></div>
+				<div class="top_right"></div>
+				<div class="bottom_left"></div>
+				<div class="bottom_right"></div>
+			</div>
+
+			<div class="three">
+				<div class="top"></div>
+				<div class="center"></div>
+				<div class="bottom"></div>
+			</div>
+
+			<div class="two">
+				<div class="top"></div>
+				<div class="bottom"></div>
+			</div>
+
+			<div class="one">
+				<div class="center"></div>
+			</div>
+
+		</div>
+
+		<div id="bones4">
+			<div class="six">
+				<div class="top_left"></div>
+				<div class="top_right"></div>
+				<div class="top_center_left"></div>
+				<div class="top_center_right"></div>
+				<div class="bottom_left"></div>
+				<div class="bottom_right"></div>
+			</div>
+
+			<div class="five">
+				<div class="top_left"></div>
+				<div class="top_right"></div>
+				<div class="center"></div>
+				<div class="bottom_left"></div>
+				<div class="bottom_right"></div>
+			</div>
+			
+			<div class="four">
+				<div class="top_left"></div>
+				<div class="top_right"></div>
+				<div class="bottom_left"></div>
+				<div class="bottom_right"></div>
+			</div>
+
+			<div class="three">
+				<div class="top"></div>
+				<div class="center"></div>
+				<div class="bottom"></div>
+			</div>
+
+			<div class="two">
+				<div class="top"></div>
+				<div class="bottom"></div>
+			</div>
+
+			<div class="one">
+				<div class="center"></div>
+			</div>
+		</div>
+
+		<img src="img/pirate2.png" class="pirate2 animate__animated animate__fadeInRight" width = "280" height="550" onMouseOver="more2(this)" onMouseOut="less2(this)" onclick="click_boy(); click_boy2(); count_winner();">
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

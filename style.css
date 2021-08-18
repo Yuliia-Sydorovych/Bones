@@ -1,0 +1,268 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	background-image: url("img/fon5.jpg");
+	background-size: 100%;
+	font-family: 'Marck Script', cursive;
+}
+div.pirate
+{
+	float: left;
+	width: 35%;
+}
+div.treasure
+{
+	width: 30%;
+	float: left;
+	position: relative;
+}
+
+img.pirate2
+{
+	padding-left: 50px;
+}
+img#treasure_img
+{
+	position: absolute;
+	top: 300px;
+	left: 20px;
+
+	height: 250px;
+	width: 250px;
+}
+img.paper_img
+{
+	height: 350px;
+	width: 250px;
+}
+p.description
+{
+	position: absolute;
+	left: 20px;
+	top: 35px;
+	color: black;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-family: 'Marck Script', cursive;
+}
+div.count
+{
+	height: 90px;
+	width: 140px;
+	position: absolute;
+	background: #d8b377;
+	left: 320px;
+	top: 90px;
+	text-align: center;
+	border-radius: 10px;
+}
+p.name
+{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+p#score
+{
+	font-weight: bold;
+	font-size: 1.2em;
+	color: black;
+}
+div.count2
+{
+	height: 90px;
+	width: 140px;
+	position: absolute;
+	background: #d8b377;
+	left: 750px;
+	top: 90px;
+	text-align: center;
+	border-radius: 10px;
+}
+p#score2
+{
+	font-weight: bold;
+	font-size: 1.2em;
+	color: black;
+}
+div#bones1
+{
+	position: absolute;
+	left: 320px;
+	top: 200px;
+	height: 60px;
+	width: 60px;
+	background: white;
+	border-radius: 10px;
+}
+div#bones2
+{
+	position: absolute;
+	left: 400px;
+	top: 200px;
+	height: 60px;
+	width: 60px;
+	background: white;
+	border-radius: 10px;
+}
+div#bones3
+{
+	position: absolute;
+	left: 750px;
+	top: 200px;
+	height: 60px;
+	width: 60px;
+	background: white;
+	border-radius: 10px;
+}
+div#bones4
+{
+	position: absolute;
+	left: 830px;
+	top: 200px;
+	height: 60px;
+	width: 60px;
+	background: white;
+	border-radius: 10px;
+}
+div#bones1 div.six, div#bones1 div.five, div#bones1 div.four, div#bones1 div.three, div#bones1 div.two, div#bones1 div.one
+{
+	display: none;
+}
+div#bones2 div.six, div#bones2 div.five, div#bones2 div.four, div#bones2 div.three, div#bones2 div.two, div#bones2 div.one
+{
+	display: none;
+}
+div#bones3 div.six, div#bones3 div.five, div#bones3 div.four, div#bones3 div.three, div#bones3 div.two, div#bones3 div.one
+{
+	display: none;
+}
+div#bones4 div.six, div#bones4 div.five, div#bones4 div.four, div#bones4 div.three, div#bones4 div.two, div#bones4 div.one
+{
+	display: none;
+}
+div.six div, div.five div, div.four div, div.three div, div.two div, div.one div
+{
+	height: 10px;
+	width: 10px;
+	background: black;
+	border-radius: 50%;
+	position: absolute;
+}
+div.six div.top_left
+{
+	left: 10px;
+	top: 5px;
+}
+div.six div.top_right
+{
+	right: 10px;
+	top: 5px;
+}
+div.six div.top_center_left
+{
+	left: 10px;
+	top: 25px;
+}
+div.six div.top_center_right
+{
+	right: 10px;
+	top: 25px;
+}
+div.six div.bottom_left
+{
+	left: 10px;
+	top: 45px;
+}
+div.six div.bottom_right
+{
+	right: 10px;
+	top: 45px;
+}
+
+div.five div.top_left
+{
+	left: 10px;
+	top: 10px;
+}
+div.five div.top_right
+{
+	right: 10px;
+	top: 10px;
+}
+div.five div.center
+{
+	left: 25px;
+	top: 25px;
+}
+div.five div.bottom_left
+{
+	left: 10px;
+	top: 40px;
+}
+div.five div.bottom_right
+{
+	right: 10px;
+	top: 40px;
+}
+
+div.four div.top_left
+{
+	left: 10px;
+	top: 10px;
+}
+div.four div.top_right
+{
+	right: 10px;
+	top: 10px;
+}
+
+div.four div.bottom_left
+{
+	left: 10px;
+	top: 40px;
+}
+div.four div.bottom_right
+{
+	right: 10px;
+	top: 40px;
+}
+div.three div.top
+{
+	right: 25px;
+	top: 5px;
+}
+div.three div.center
+{
+	right: 25px;
+	top: 25px;
+}
+div.three div.bottom
+{
+	right: 25px;
+	top: 45px;
+}
+div.two div.top
+{
+	right: 25px;
+	top: 10px;
+}
+div.two div.bottom
+{
+	right: 25px;
+	top: 40px;
+}
+div.one div.center
+{
+	left: 25px;
+	top: 25px;
+}
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 2s;
+}
+.animate__animated.animate__fadeInRight {
+  --animate-duration: 2s;
+}
+.animate__animated.animate__zoomIn {
+  --animate-duration: 1s;
+}
